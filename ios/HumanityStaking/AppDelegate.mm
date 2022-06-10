@@ -50,6 +50,7 @@
   UIViewController *rootViewController = [self.reactDelegate createRootViewController];
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
+  [GADMobileAds configureWithApplicationID:@"ca-app-pub-1209942377805776~1017111113"];
   [self.window makeKeyAndVisible];
 
   [super application:application didFinishLaunchingWithOptions:launchOptions];
