@@ -50,11 +50,11 @@ class Home extends Component {
             <AppBar/>
             <ScrollView>
             <Text style={styles.header}>Welcome</Text>
-            <Banner />
+            <BannerAd/>
             <CardList/>
             <BottomBanner/><StatusBar style="auto" />
             </ScrollView>
-            <BannerAd/>
+            
         </LinearGradient>                                                 
     }
 

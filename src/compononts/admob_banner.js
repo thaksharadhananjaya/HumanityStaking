@@ -11,7 +11,7 @@ export default function BannerAd() {
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <AdMobBanner
         adUnitID={unitID}
-        bannerSize="fullBanner"
+        bannerSize="largeBanner"
         servePersonalizedAds={true}
         style={{
           padding: 30,
